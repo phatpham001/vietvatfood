@@ -6,25 +6,511 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Việt Vặt Food</title>
+
+  <!-- Bootstrap CDN5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!-- End Bootstrap CDN5 -->
+  <link rel="stylesheet" href="../css/home.css">
 </head>
 
 <body>
 
-  <h1>Đây là Việt Vặt Food</h1>
+  <h1> </h1>
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-light fixed-top ">
+    <div class="container"> <a class="navbar-brand d-flex align-items-center" href="../html/Home.html">
+        <svg width="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+          style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <g>
+            <g>
+              <path
+                d="M511.981,118.509c-0.135-2.956-1.892-5.726-4.565-7.04l-159.24-79.62c-3.776-1.887-8.363-0.64-10.664,2.898 L229.916,200.282l-55.413-85.891c-0.796-1.235-1.945-2.264-3.259-2.922l-159.24-79.62C6.582,29.138,0,33.218,0,39.268v79.621 c0,4.581,3.712,8.294,8.294,8.294c4.581,0,8.294-3.712,8.294-.294V52.687l142.652,71.326v335.32L16.587,388.008V154.277	c0-4.581-3.712-8.294-8.294-8.294c-4.581,0-8.294,3.712-8.294,8.294v238.857c0,3.142,1.775,6.013,4.585,7.418l159.24,79.62	c5.427,2.714,12.003-1.375,12.003-7.418V318.087l324.17,162.085c5.427,2.714,12.003-1.375,12.003-7.418V118.888	C512,118.76,511.987,118.636,511.981,118.509z M175.827,299.541v-152.5l145.239,225.12L175.827,299.541z M495.413,459.335
+  l-139.34-69.671l108.576-186.993c2.299-3.961,0.952-9.037-3.009-11.337c-3.96-2.298-9.036-0.953-11.337,3.009L344.094,377.258
+  L239.77,215.555L347.383,49.998l144.717,72.359l-26.387,45.446c-2.299,3.961-0.952,9.037,3.009,11.337	c3.958,2.297,9.035,0.953,11.337-3.009l15.354-26.443V459.335z"
+                fill="#000" />
+            </g>
+          </g>
+        </svg>
+        <span class="ml-3 font-weight-bold">BRAND</apan>
+      </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+        data-target="#navbar4">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <h1>Đây là Việt Vặt Food</h1>
 
-  <h1>Đây là Việt Vặt Food</h1>
+      <div class="collapse navbar-collapse" id="navbar4">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="gnb" class="navbar-nav mr-auto pl-lg-4 ">
+              <li class="nav-item px-lg-2 active"> <a class="nav-link" href="../html/Home.html"> <span
+                    class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Trang Chủ</a> </li>
+              <li class="nav-item px-lg-2"> <a class="nav-link" href="../html/Contact.html"><span
+                    class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Liên Hệ</a> </li>
+              <li class="nav-item px-lg-2"> <a class="nav-link" href="../html/Product.html"><span
+                    class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>Tất Cả Sản
+                  Phẩm</a>
+              </li>
+              <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span
+                    class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>Sản phẩm theo danh
+                  mục</a>
+                <ul class="lnb">
+                  <li>
+                    <a class="dropdown-item" href="../html/Product.html">Thời Trang Nam</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../html/Product.html">Thời Trang Nữ</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../html/Product.html">Thời Trang Trẻ Em</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../html/Product.html">Phụ Kiện</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item px-lg-2"> <a class="nav-link" href="../html/Post.html"><span
+                    class="d-inline-block d-lg-none icon-width"><i class="far fa-envelope"></i></span>Tin Tức</a>
+              </li>
+              <!-- <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span
+                    class="d-inline-block d-lg-none icon-width"><i class="far fa-envelope"></i></span>Giới Thiệu</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row cartHeader">
+        <div class="col-lg-12">
+          <ul id="gnb" class="navbar-nav mr-auto pl-lg-4">
+            <li class="nav-item active"> <a class="nav-link" href="../html/Home.html"> <span
+                  class="d-inline-block d-lg-none icon-width"></span>Xin chào! LÂM HOÀNG</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="../html/Cart.html"><span
+                  class="d-inline-block d-lg-none icon-width"></span>Giỏ Hàng <img class="img-cart"
+                  src="../img/cart-icon.png" alt=""></a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Slider HomePage -->
+  <div id="carouselExampleCaptions" class="carousel slide mb-lg-2 mt-lg-5" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/slide-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/slide-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../img/slide-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- END Slider HomePage -->
+  <!-- ***** Header Area End ***** -->
 
-  <h1>Đây là Việt Vặt Food</h1>
 
-  <h1>Đây là Việt Vặt Food</h1>
+  <!-- Content HomePage -->
+  <div class="section">
+    <!-- =============== SECTION DEAL =============== -->
+    <section class="p-lg-5 m-lg-5 section-home">
+      <div class="container label-home">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h2 class="text-uppercase">Thời trang nam</h2>
+              <span>Details to details is what makes Hexashop different from the other themes.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/men-01.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Áo khoác nam 1</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/men-02.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Áo khoác nam 2</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/men-03.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Áo khoác nam 3</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container label-home">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h2 class="text-uppercase">Thời trang nữ</h2>
+              <span>Details to details is what makes Hexashop different from the other themes.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/women-01.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Áo nữ 1</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/women-02.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Quần nữ 2</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/women-03.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Quần nữ 3</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container label-home">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-heading">
+              <h2 class="text-uppercase">Thời trang trẻ em</h2>
+              <span>Details to details is what makes Hexashop different from the other themes.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/kid-01.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Áo len MBrand</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/kid-02.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">nón MBrand</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="SingleProduct.html">
+              <div class="greek">
+                <img src="../img/kid-03.jpg" class="card-img-top img-home-hover" alt="...">
+              </div>
+            </a>
+            <div class="card-body">
+              <h5 class="card-title text-capitalize">Áo MBrand Kid</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =============== SECTION DEAL // END =============== -->
+  </div>
+  <!-- END Content HomePage -->
 
-  <h1>Đây là Việt Vặt Food</h1>
 
-  <h1>Đây là Việt Vặt Food</h1>
+  <!-- ***** Social Area Starts ***** -->
+  <section class="section" id="social">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2 class="text-uppercase">Tin tức thời trang</h2>
+            <span>Details to details is what makes Hexashop different from the other themes.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row images">
+        <div class="col-2">
+          <div class="thumb">
+            <a href="../html/Post.html">
+              <div class="greek">
+                <img src="../img/instagram-01.jpg" class="" alt="...">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="thumb">
+            <a href="../html/Post.html">
+              <div class="greek">
+                <img src="../img/instagram-02.jpg" class="" alt="...">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="thumb">
+            <a href="../html/Post.html">
+              <div class="greek">
+                <img src="../img/instagram-03.jpg" class="" alt="...">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="thumb">
+            <a href="../html/Post.html">
+              <div class="greek">
+                <img src="../img/instagram-04.jpg" class="" alt="...">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="thumb">
+            <a href="../html/Post.html">
+              <div class="greek">
+                <img src="../img/instagram-05.jpg" class="" alt="...">
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="thumb">
+            <a href="../html/Post.html">
+              <div class="greek">
+                <img src="../img/instagram-06.jpg" class="" alt="...">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Social Area Ends ***** -->
 
-  <h1>Đây là Việt Vặt Food</h1>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>MBrand
+            </h6>
+            <p>
+              Chúng tôi ở đây để đem lại những gì tốt nhất cho bạn và gia đình bạn.
+              Hãy ủng hộ chúng tôi hoặc liên hệ với chúng tôi qua: (+84) 123 1234 123
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Sản phẩm
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Nam</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Nữ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Trẻ Em</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Phụ Kiện</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="../html/Home.html">MBrand.com.vn</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
 </body>
 
